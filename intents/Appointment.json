@@ -1,0 +1,99 @@
+{
+  "id": "7d9062a4-a810-4ae3-8393-ba5e7a70efd8",
+  "name": "Appointment",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "ea57d964-6faf-48ff-898a-8ae5b1ba4d59",
+          "name": "date-time",
+          "required": true,
+          "dataType": "@sys.date-time",
+          "value": "$date-time",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What time?"
+            },
+            {
+              "lang": "en",
+              "value": "When?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "7e044dbb-37eb-4609-a50b-b2342a8b49c7",
+          "name": "date",
+          "required": false,
+          "dataType": "@sys.date-time",
+          "value": "$date",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "When do you want to schedule the appointment?"
+            },
+            {
+              "lang": "en",
+              "value": "What date?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "a647a0ed-05b8-41f3-9e77-74a15b5c3e84",
+          "name": "date-period",
+          "required": false,
+          "dataType": "@sys.date",
+          "value": "$date-time",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "You want to book an appointment for a doctor.",
+            "You want to see a doctor.",
+            "I will book an appointment for you at $date-time.original",
+            "I will schedule an appointment for you at $date-time.original"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
