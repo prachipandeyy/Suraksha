@@ -31,43 +31,6 @@
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
           "outputDialogContexts": []
-        },
-        {
-          "id": "7e044dbb-37eb-4609-a50b-b2342a8b49c7",
-          "name": "date",
-          "required": false,
-          "dataType": "@sys.date-time",
-          "value": "$date",
-          "defaultValue": "",
-          "isList": false,
-          "prompts": [
-            {
-              "lang": "en",
-              "value": "When do you want to schedule the appointment?"
-            },
-            {
-              "lang": "en",
-              "value": "What date?"
-            }
-          ],
-          "promptMessages": [],
-          "noMatchPromptMessages": [],
-          "noInputPromptMessages": [],
-          "outputDialogContexts": []
-        },
-        {
-          "id": "a647a0ed-05b8-41f3-9e77-74a15b5c3e84",
-          "name": "date-period",
-          "required": false,
-          "dataType": "@sys.date",
-          "value": "$date-time",
-          "defaultValue": "",
-          "isList": false,
-          "prompts": [],
-          "promptMessages": [],
-          "noMatchPromptMessages": [],
-          "noInputPromptMessages": [],
-          "outputDialogContexts": []
         }
       ],
       "messages": [

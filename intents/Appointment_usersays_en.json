@@ -1,0 +1,130 @@
+[
+  {
+    "id": "90b098da-933b-48cb-8797-462faabbccd8",
+    "data": [
+      {
+        "text": "book an appointment for ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow 1:00pm",
+        "meta": "@sys.date-time",
+        "alias": "date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "37ff379c-d4af-4e51-b317-e00b0e16d34c",
+    "data": [
+      {
+        "text": "book an appointment for ",
+        "userDefined": false
+      },
+      {
+        "text": "15th july",
+        "meta": "@sys.date-time",
+        "alias": "date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "476dbad3-f0e6-402c-a184-52df5fc8c9a8",
+    "data": [
+      {
+        "text": "book an appointment for next sunday",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "10e7c94c-ce41-48f2-a1a5-f943da917537",
+    "data": [
+      {
+        "text": "book an appointment for ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "meta": "@sys.date-time",
+        "alias": "date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7ccc4dcd-f6b7-4eb8-a74f-f3a9f5a69dbd",
+    "data": [
+      {
+        "text": "book an appointment for ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "meta": "@sys.date-time",
+        "alias": "date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d3ca3b3a-f47e-4fdd-8ee2-a704026fd386",
+    "data": [
+      {
+        "text": "i want to see a doctor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3cc2efa0-2638-4687-aedb-0e69e833cf3f",
+    "data": [
+      {
+        "text": "schedule an appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "61534255-7466-4d9a-9aa7-ba60a2e2e5bd",
+    "data": [
+      {
+        "text": "book an appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
